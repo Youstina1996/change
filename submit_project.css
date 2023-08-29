@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0% auto;
+  }
+
+.container{
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 10px 10px #2b4f71;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: #2b4f71;
+    padding-bottom: 10px;
+    border-bottom:1px solid #2b4f71;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    padding: 10px 0;
+    
+}
+
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.input-box:nth-child(2n){
+    justify-content: end;
+}
+
+.input-box label, .gender-title{
+    width: 95%;
+    color: #2b4f71;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.input-box input {
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border: 0;
+    border-bottom:1px solid #2b4f71;
+    outline: none;
+}
+
+.input-box input:is(:focus , :valid) {
+   box-shadow: 0 1px 1px #2b4f71;
+   transition: 0.5s;
+}
+
+.gender-categeroy{
+    color: #2b4f71;
+    padding-right: 440px;
+}
+
+.gender-categeroy label{
+    padding: 0 20px 0 5px;
+    font-size: 14px;
+}
+
+.gender-categeroy label , .gender-categeroy input{
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.butoon-container{
+    margin: 15px 0;
+}
+
+.butoon-container button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    color: #e9edf8;
+    background-color: #2b4f71;
+    font-size: 20px;
+    border: none;
+
+}
+
+.butoon-container button:hover{
+   
+    background-image: linear-gradient( #2b4f71, #657a97);
+   
+    
+}
+
+.input-box select{
+   border: 1px solid #2b4f71;
+   outline: none;
+   width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Interests-categeroy{
+    color: #2b4f71;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: -30px;
+}
+
+.comments{
+    color: #2b4f71;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: -10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.comments h5{
+    color: #2b4f71;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.upload{
+    margin: 15px 0;
+    color: #2b4f71;
+    font-weight: bold;
+}
+
+.upload button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    color: #e9edf8;
+    background-color: #2b4f71;
+    font-size: 20px;
+    border: none;
+
+}
+
+.upload button:hover{
+   
+    background-image: linear-gradient( #2b4f71, #657a97);
+   
+    
+}
